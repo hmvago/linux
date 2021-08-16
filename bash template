@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# set -x                  <enable glob expansion>
-# set +x                  <disable glob expansion>
+# set -x                  <enable: expands commands and print each command to stdout before executing it>
+# set +x                  <disable>
