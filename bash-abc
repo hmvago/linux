@@ -1,0 +1,12 @@
+If there is anything like a driver's license for safe bash coding, it must be rule zero of BashPitfalls (http://mywiki.wooledge.org/BashPitfalls ): Always use quotes.
+Quoting inhibits word splitting and indirect pathname expansion, both for variables and command substitutions.
+
+Variable expansion:
+
+    Good: "$my_var"
+    Bad: $my_var
+
+Command substitution:
+
+    Good: "$(cmd)"
+    Bad: $(cmd)
