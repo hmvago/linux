@@ -1,0 +1,11 @@
+# Run the script with the arguments as you would for
+# every other command.
+# Example: ./script.sh arg1 arg2 
+
+#!/bin/sh
+echo "argument1: $1"
+echo "argument2: $2"
+
+# Output: 
+# argument1: arg1
+# argument2: arg2
