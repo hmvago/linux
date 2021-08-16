@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# set -x                  <enable glob expansion>
+# set +x                  <disable glob expansion>
